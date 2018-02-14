@@ -4,13 +4,11 @@
 	box-sizing: border-box;
 }
 body {
+	max-width: 1920px;
 	margin: 0;
 	background: #dccfe7;
 	color: #6d5383;
 	font: 13px/2.3 'Roboto', sans-serif;
-}
-.wrapper {
-	background: url(../image/bgvisual.png);
 }
 
 img {
@@ -38,8 +36,8 @@ margin: 0 auto;
 
 
 .header {
-	padding: 20px 0;
-	margin-bottom: 70px;
+	padding: 67px 0 0 0;
+	margin-bottom: 80px;
 }
 
 .header:after {
@@ -54,6 +52,7 @@ margin: 0 auto;
 
 .nav {
 	float: right;
+	margin-top: 21px;
 }
 
 .nav ul {
@@ -149,6 +148,7 @@ margin: 0 auto;
 	text-transform: uppercase;
 	font-weight: 900;
     line-height: 112px;
+    margin: 0 0 13px 0;
 }
 
 .promo-block span {
@@ -160,8 +160,8 @@ margin: 0 auto;
 	font-weight: 700;
 	letter-spacing: -0.02em;
 	line-height: 34px;
-	margin: 0 0 40px 0;
-	padding:0 0 45px 0;
+	margin: 0 0 45px 0;
+	padding:0 0 42px 0;
 	border-bottom: 2px solid #9884aa; 
 	display: block; 
 
@@ -175,8 +175,9 @@ margin: 0 auto;
 	color: #d8d1de;
 	font-weight: 300;
 	font-size: 28px;
-	letter-spacing: -0.014em
-	margin 0 0 50px 0;
+	letter-spacing: -0.02em;
+	margin: 0 0 50px 0;
+	line-height: 1.35;
 }
 
 .singin ul {
